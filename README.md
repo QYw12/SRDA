@@ -73,7 +73,7 @@ cd ..
 * Clone SRDA code repository and install requirements.
 ```bash
 # Clone SRDA code base
-git clone https://github.com/BaiShuanghao/Prompt-based-Distribution-Alignment.git
+git clone https://github.com/QYw12/Self-Regulating Distribution Alignment.git
 cd Self-Regulating Distribution Alignment
 
 # Install requirements
