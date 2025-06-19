@@ -1,6 +1,6 @@
 # Self-Regulating Distribution Alignment
 
-Authors: [QYw12](https://github.com/QYw12)/).
+Authors: [QYw12](https://github.com/QYw12)).
 <hr />
 
 ## Highlights
@@ -128,6 +128,6 @@ If you have any questions, please create an issue on this repository or contact 
 
 ## Acknowledgements
 
-Our style of reademe refers to [PDA](https://github.com/BaiShuanghao/Prompt-based-Distribution-Alignment)). 
+Our style of reademe refers to [PDA](https://github.com/BaiShuanghao/Prompt-based-Distribution-Alignment). 
 And our code is based on [CoOp and CoCoOp](https://github.com/KaiyangZhou/CoOp), [DAPL](https://github.com/LeapLabTHU/DAPrompt/tree/main) ,[MaPLe](https://github.com/muzairkhattak/multimodal-prompt-learning) and [PDA](https://github.com/BaiShuanghao/Prompt-based-Distribution-Alignment)etc. repository. We thank the authors for releasing their codes. If you use their codes, please consider citing these works as well.
 
