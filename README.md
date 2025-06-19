@@ -1,6 +1,6 @@
 # Self-Regulating Distribution Alignment
 
-Authors: [QYw12](https://github.com/QYw12)).
+Authors: [QYw12](https://github.com/QYw12).
 <hr />
 
 ## Highlights
