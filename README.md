@@ -1,4 +1,4 @@
-# Self-Regulating Distribution Alignment
+# Self-regulating Distribution Alignment
 
 Authors: [QYw12](https://github.com/QYw12).
 <hr />
@@ -6,7 +6,7 @@ Authors: [QYw12](https://github.com/QYw12).
 ## Highlights
 
 ![main figure](model.jpg)
-> **<p align="justify"> Abstract:** Although large-scale pre-trained vision-language models (VLMs) exhibit significant potential for cross-domain visual tasks, existing prompt-learning-based unsupervised domain adaptation (UDA) methods suffer from source domain overfitting and target domain performance degradation. This paper experimentally demonstrates that conventional prompt learning exhibits insufficient cross-domain generalization due to optimization heavily biased toward the source distribution. To address this challenge, we propose a Self-Regulating Distribution Alignment (SRDA) framework. Its core innovation is a dual-branch co-optimization mechanism that dynamically balances cross-domain semantic alignment with pre-trained knowledge preservation. Specifically, the self-regulating multimodal prompt branch incorporates three constraints: semantic consistency regularization, dual-domain collaborative contrastive regularization, and text semantic diversity enhancement. This design suppresses prompt overfitting to the source domain while preserving CLIP's zero-shot generalization capability. The cross-domain alignment branch introduces dynamic dual-domain feature bank and Cross-domain Collaborative Dual Attention (CCDA) module, achieving fine-grained local semantic calibration through moving average prototypes and a dual-layer attention mechanism. Extensive experiments validate SRDA's effectiveness on downstream UDA tasks.* </p>
+> **<p align="justify"> Abstract:** Although large-scale pre-trained vision-language models (VLMs) exhibit significant potential for cross-domain visual tasks, existing prompt-learning-based unsupervised domain adaptation (UDA) methods suffer from source domain overfitting and target domain performance degradation. This paper experimentally demonstrates that conventional prompt learning exhibits insufficient cross-domain generalization due to optimization heavily biased toward the source distribution. To address this challenge, we propose a Self-regulating Distribution Alignment (SRDA) framework. Its core innovation is a dual-branch co-optimization mechanism that dynamically balances cross-domain semantic alignment with pre-trained knowledge preservation. Specifically, the self-regulating multimodal prompt branch incorporates three constraints: semantic consistency regularization, dual-domain collaborative contrastive regularization, and text semantic diversity enhancement. This design suppresses prompt overfitting to the source domain while preserving CLIP's zero-shot generalization capability. The cross-domain alignment branch introduces dynamic dual-domain feature bank and Cross-domain Collaborative Dual Attention (CCDA) module, achieving fine-grained local semantic calibration through moving average prototypes and a dual-layer attention mechanism. Extensive experiments validate SRDA's effectiveness on downstream UDA tasks.* </p>
 
 <details>
   
@@ -73,7 +73,7 @@ cd ..
 * Clone SRDA code repository and install requirements.
 ```bash
 # Clone SRDA code base
-git clone https://github.com/QYw12/Self-Regulating Distribution Alignment.git
+git clone https://github.com/QYw12/Self-regulating Distribution Alignment.git
 cd Self-Regulating Distribution Alignment
 
 # Install requirements
