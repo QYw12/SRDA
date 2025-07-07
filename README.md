@@ -34,7 +34,7 @@ Results reported below show accuracy across 3 UDA datasets with ViT-B/16 backbon
 | [VPT-deep](https://arxiv.org/abs/2203.12119)              |   83.9   |   89.4    |   86.2   | 
 | [MaPLe](https://arxiv.org/abs/2210.03117)                 |   84.2   |   89.6    |   83.5   |
 | [DAPL](https://arxiv.org/abs/2202.06687)                  |   84.4   |   81.2    |   89.5   |
-| [PDA](https://arxiv.org/abs/2312.09553)                   |   85.7   |   91.2    |   89.7   | 
+| [PDA](https://arxiv.org/abs/2312.09553)                   |   85.5   |   90.9    |   89.7   | 
 | [SRDA](Ours)                                              |   **87.0**   |   **92.6**    | **90.1** |
 
 ## Installation 
