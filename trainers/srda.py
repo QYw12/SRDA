@@ -5,7 +5,6 @@ from torch.cuda.amp import GradScaler, autocast
 import numpy as np
 import os
 import matplotlib
-matplotlib.use('Agg')  # 强制使用非GUI后端
 import matplotlib.pyplot as plt
 from sklearn.manifold import TSNE
 import json
@@ -16,12 +15,11 @@ from dassl.engine import TRAINER_REGISTRY
 from dassl.metrics import compute_accuracy
 from dassl.utils import load_pretrained_weights, count_num_param
 from dassl.optim import build_optimizer, build_lr_scheduler
-from fvcore.nn import FlopCountAnalysis, flop_count_table
+
 from clip import clip
 from clip.simple_tokenizer import SimpleTokenizer as _Tokenizer
 from trainers.baseda import *
 from utils.clip_part import *
-from utils.templates import CUSTOM_TEMPLATES
 from utils.CCDA import *
 from trainers.imagenet_templates import  IMAGENET_TEMPLATES
 
